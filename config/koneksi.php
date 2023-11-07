@@ -4,11 +4,17 @@ error_reporting(~E_NOTICE & ~E_DEPRECATED);
 // ini_set('display_errors', '1');
 // ini_set('display_startup_errors', '1');
 // error_reporting(E_ALL);
-
 $servername = "127.0.0.1";
-$usernameser = "root";
-$passwordser = "";
-$database = "saungrindualam";
+
+
+$usernameser = "dela2137_delapain";
+$passwordser = "delapain_5209";
+$database = "dela2137_saungrindualam";
+
+
+// $usernameser = "root";
+// $passwordser = "";
+// $database = "saungrindualam";
 $koneksi = mysqli_connect($servername,$usernameser,$passwordser,$database);
 $db = new mysqli($servername, $usernameser, $passwordser, $database);
 try {
